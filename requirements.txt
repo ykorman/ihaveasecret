@@ -1,0 +1,12 @@
+Django
+django-registration
+djangorestframework
+markdown
+django-filter
+django-debug-toolbar
+django-userena
+python-openid
+python-oauth2
+python-social-auth
+django-extensions
+django-cors-headers
