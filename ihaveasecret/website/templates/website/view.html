@@ -1,0 +1,9 @@
+{% if latest_message_list %}
+    <ul>
+    {% for message in latest_message_list %}
+        <li><a href="{% url 'web:view_message' message.id %}">{{ message.message }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Messages are available.</p>
+{% endif %}
