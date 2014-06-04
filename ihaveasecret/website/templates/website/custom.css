@@ -1,5 +1,6 @@
 /* http://www.colorzilla.com/gradient-editor/#036f73+0,036f73+49,ef504f+51,ef504f+100&1+0,1+49,0+50,1+51,1+100;Custom */
-html {
+
+html_debug {
   background-color: black !important;
   background: -moz-linear-gradient(-45deg,  rgba(3,111,115,1) 0%, rgba(3,111,115,1) 49%, rgba(121,96,97,0) 50%, rgba(239,80,79,1) 51%, rgba(239,80,79,1) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(3,111,115,1)), color-stop(49%,rgba(3,111,115,1)), color-stop(50%,rgba(121,96,97,0)), color-stop(51%,rgba(239,80,79,1)), color-stop(100%,rgba(239,80,79,1))); /* Chrome,Safari4+ */
@@ -10,6 +11,6 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#036f73', endColorstr='#ef504f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-body {
+body_debug {
   background-color: transparent !important;
 }
